@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.78f18f4a.css",
-    "main.js": "/static/js/main.e2a30b7c.js",
-    "index.html": "/index.html",
-    "main.78f18f4a.css.map": "/static/css/main.78f18f4a.css.map",
-    "main.e2a30b7c.js.map": "/static/js/main.e2a30b7c.js.map"
+    "main.css": "/tech-task-twitts/static/css/main.78f18f4a.css",
+    "main.js": "/tech-task-twitts/static/js/main.e2a30b7c.js",
+    "index.html": "/tech-task-twitts/index.html",
+    "main.78f18f4a.css.map": "/tech-task-twitts/static/css/main.78f18f4a.css.map",
+    "main.e2a30b7c.js.map": "/tech-task-twitts/static/js/main.e2a30b7c.js.map"
   },
   "entrypoints": [
     "static/css/main.78f18f4a.css",
