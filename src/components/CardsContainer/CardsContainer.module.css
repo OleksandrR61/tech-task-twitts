@@ -1,0 +1,13 @@
+.cardsContainer {
+    max-width: 1284px;
+    padding: 24px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+
+    background: #FFFFFF;
+
+    border-radius: 20px;
+}

@@ -1,0 +1,64 @@
+.userCard {
+    width: 380px;
+    min-height: 460px;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    box-shadow: -3px 7px 21px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+    overflow: hidden;
+
+    position: relative;
+
+    background-image: url("./img/picture.png"),
+        linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+    background-size:  308px 168px, cover;
+    background-position: 36px 28px, center;
+    background-repeat: no-repeat;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #EBD8FF;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .userCard {
+            background-image: url("./img/picture@2x.png");
+        }
+    }
+
+.userCard::before {
+    position: absolute;
+
+    content: '';
+    top: 214px;
+    left: 0;
+
+    width: 380px;
+    height: 8px;
+
+    background: #EBD8FF;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.06),
+                inset 0px -2px 3px #AE7BE3,
+                inset 0px 3px 3px #FBF8FF;
+}
+
+.text {
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.textFirst {
+    padding-top: 242px;
+}
+
+.textLast {
+    padding-bottom: 24px;
+}
