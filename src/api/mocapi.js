@@ -6,9 +6,7 @@ const usersInstance = axios.create({
 
 export const getUsers = async () => {
     try {
-        console.log("WTF");
         const response =  await usersInstance.get('users');
-        console.log(response);
         return response.data;
     } catch (error) {
         console.error(error);

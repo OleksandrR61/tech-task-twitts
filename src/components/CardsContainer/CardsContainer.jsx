@@ -12,9 +12,10 @@ function CardsContainer() {
     const [ totalPage, setTotalPage ] = useState(1);
 
     useEffect(() => async () => {
-        const users = await getUsers();
-        setTotalPage(Math.ceil(users.length / 3));
-        setUsers(users.slice(0, 3));
+        const usersView = await getUsers();
+        setTotalPage(Math.ceil(usersView.length / 3));
+        setUsers(usersView.slice(0, 3));
+        console.log("usersView => ", usersView);
     }, [setUsers, setTotalPage]);
 
     const handleClick  = async event => {
@@ -22,9 +23,12 @@ function CardsContainer() {
 
         const nextPage = page + 1;
         setPage(nextPage);
-        const users = await getUsers();
-        setUsers(users.slice(0, nextPage * 3));
+        const usersView = await getUsers();
+        setUsers(usersView.slice(0, nextPage * 3));
+        console.log("usersView => ", usersView);
     };
+
+    console.log("users => ", users);
 
     return (
         <div className={styles.cardsContainer}>
