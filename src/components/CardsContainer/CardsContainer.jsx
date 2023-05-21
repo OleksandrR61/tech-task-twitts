@@ -26,6 +26,8 @@ function CardsContainer() {
         setUsers(users.slice(0, nextPage * 3));
     }
 
+    console.log(users);
+
     return (
         <div className={styles.cardsContainer}>
             <ul className={styles.list}>
