@@ -12,6 +12,7 @@ function CardsContainer() {
     const [ totalPage, setTotalPage ] = useState(1);
 
     useEffect(() => async () => {
+        console.log("WTF");
         const usersView = await getUsers();
         setTotalPage(Math.ceil(usersView.length / 3));
         setUsers(usersView.slice(0, 3));
