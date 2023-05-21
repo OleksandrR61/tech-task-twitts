@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/tech-task-twitts/static/css/main.8a85204e.css",
-    "main.js": "/tech-task-twitts/static/js/main.a7d9f992.js",
+    "main.js": "/tech-task-twitts/static/js/main.58bbe94e.js",
     "static/media/picture@2x.png": "/tech-task-twitts/static/media/picture@2x.b3a8aa4b636111e8b10e.png",
     "static/media/picture.png": "/tech-task-twitts/static/media/picture.953a70108f853f6f9d48.png",
     "static/media/logo.svg": "/tech-task-twitts/static/media/logo.8805743230a8bc1fd0c689ee9aef3055.svg",
     "static/media/ellipse.svg": "/tech-task-twitts/static/media/ellipse.8b921362754ac445d87c282682e96aea.svg",
     "index.html": "/tech-task-twitts/index.html",
     "main.8a85204e.css.map": "/tech-task-twitts/static/css/main.8a85204e.css.map",
-    "main.a7d9f992.js.map": "/tech-task-twitts/static/js/main.a7d9f992.js.map"
+    "main.58bbe94e.js.map": "/tech-task-twitts/static/js/main.58bbe94e.js.map"
   },
   "entrypoints": [
     "static/css/main.8a85204e.css",
-    "static/js/main.a7d9f992.js"
+    "static/js/main.58bbe94e.js"
   ]
 }
