@@ -24,9 +24,7 @@ function CardsContainer() {
         setPage(nextPage);
         const users = await getUsers();
         setUsers(users.slice(0, nextPage * 3));
-    }
-
-    console.log(users);
+    };
 
     return (
         <div className={styles.cardsContainer}>
