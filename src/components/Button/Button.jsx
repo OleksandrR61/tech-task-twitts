@@ -1,13 +1,13 @@
 import styles from './Button.module.css'
 
-function Button({ isFollowing, onClick }) {
+function Button({ text, isFollowing, onClick }) {
     return (
         <button
             type="button"
-            className={`${styles.button} ${isFollowing && styles.buttonFollowing}`}
+            className={`${styles.button} ${(text || isFollowing) && styles.buttonFollowing}`}
             onClick={onClick}
         >
-            {isFollowing}{isFollowing ? "Following" : "Follow"}
+            {text ? text : isFollowing ? "Following" : "Follow"}
         </button>
     );
 }
